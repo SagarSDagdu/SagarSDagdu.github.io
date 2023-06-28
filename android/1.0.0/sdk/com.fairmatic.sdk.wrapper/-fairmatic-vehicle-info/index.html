@@ -1,0 +1,104 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>FairmaticVehicleInfo</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../../";</script>    <script>const storage = localStorage.getItem("dokka-dark-mode")
+const savedDarkMode = storage ? JSON.parse(storage) : false
+if(savedDarkMode === true){
+    document.getElementsByTagName("html")[0].classList.add("theme-dark")
+}</script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script><link href="../../../styles/style.css" rel="Stylesheet"><link href="../../../styles/jetbrains-mono.css" rel="Stylesheet"><link href="../../../styles/main.css" rel="Stylesheet"><link href="../../../styles/prism.css" rel="Stylesheet"><link href="../../../styles/logo-styles.css" rel="Stylesheet"><script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script><script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script><script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script><script type="text/javascript" src="../../../scripts/main.js" async="async"></script><script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>  </head>
+  <body>
+    <div class="navigation-wrapper" id="navigation-wrapper">
+      <div id="leftToggler"><span class="icon-toggler"></span></div>
+      <div class="library-name"><a href="../../../index.html">sdk</a></div>
+      <div></div>
+      <div class="pull-right d-flex"><button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+      </div>
+    </div>
+    <div id="container">
+      <div id="leftColumn">
+        <div id="sideMenu"></div>
+      </div>
+      <div id="main"><script type="text/javascript" src="../../../scripts/main.js"></script>
+        <div class="main-content" id="content" pageIds="sdk::com.fairmatic.sdk.wrapper/FairmaticVehicleInfo///PointingToDeclaration//165651098">
+          <div class="breadcrumbs"><a href="../../../index.html">sdk</a>/<a href="../index.html">com.fairmatic.sdk.wrapper</a>/<a href="index.html">FairmaticVehicleInfo</a></div>
+          <div class="cover ">
+            <h1 class="cover"><span>Fairmatic</span><wbr></wbr><span>Vehicle</span><wbr></wbr><span><span>Info</span></span></h1>
+            <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">FairmaticVehicleInfo</a><span class="token punctuation">(</span>vehicleId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span>bluetoothAddress<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph">The vehicle information to pass to Fairmatic for tagging the drives. It contains properties like the vehicle id and the bluetooth address.</p></div></div>
+          </div>
+          <div class="tabbedcontent">
+            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Parameters">Parameters</button></div>
+            <div class="tabs-section-body">
+              <h2 class="">Parameters</h2>
+              <div data-togglable="Parameters">
+                <div class="platform-hinted WithExtraAttributes" data-platform-hinted="data-platform-hinted" data-togglable="Parameters"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div data-togglable="Parameters"><div class="table" data-togglable="Parameters"><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><span>vehicle</span><wbr></wbr><span><span>Id</span></span></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">The id of the vehicle to be associated with the SDK. Each vehicle associated with the SDK needs a unique id. This id will be returned in <a href="../-analyzed-drive-info/index.html">AnalyzedDriveInfo</a> if the device was connected to the vehicle's bluetooth during a drive. Please use <a href="../-drive-info/vehicle-tagging-details.html">DriveInfo.vehicleTaggingDetails</a> to get the details of the vehicle tagged. The id may be upto 64 characters long. You can use <a href="../../com.fairmatic.sdk/-fairmatic/is-valid-input-parameter.html">com.fairmatic.sdk.Fairmatic.isValidInputParameter</a> to validate the vehicle Id. Passing an invalid id to <a href="../-fairmatic-vehicle-tagging/associate-vehicle.html">FairmaticVehicleTagging.associateVehicle</a> will result in an error.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><span>bluetooth</span><wbr></wbr><span><span>Address</span></span></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">The hardware address of the vehicle's bluetooth to be associated with the SDK. This address will be used to scan for the vehicle during drives. The Bluetooth device can be found either through device discovery or by querying the list of paired devices. Please refer to this guide for more details. The address can be fetched by calling <a href="get-bluetooth-address.html">FairmaticVehicleInfo.getBluetoothAddress</a> on the corresponding BluetoothDevice object. Passing an invalid bluetooth address to <a href="../-fairmatic-vehicle-tagging/associate-vehicle.html">FairmaticVehicleTagging.associateVehicle</a> will result in an error. You can use BluetoothAdapter.checkBluetoothAddress(java.lang.String) to validate the bluetooth address.</p></div></div></div></div></div></div></div></div></div>
+              </div>
+              <h2 class="tabbedcontent">Constructors</h2>
+              <div class="table" data-togglable="Constructors"><a data-name="1450808198%2FConstructors%2F165651098" anchor-label="FairmaticVehicleInfo" id="1450808198%2FConstructors%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue TabbedContent">
+                    <div class=""><span class="inline-flex"><a href="-fairmatic-vehicle-info.html">FairmaticVehicleInfo</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1450808198%2FConstructors%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-fairmatic-vehicle-info.html"><span class="token function">FairmaticVehicleInfo</span></a><span class="token punctuation">(</span>vehicleId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span>bluetoothAddress<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="">Types</h2>
+              <div class="table" data-togglable="Types"><a data-name="-1653717232%2FClasslikes%2F165651098" anchor-label="Convertor" id="-1653717232%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-convertor/index.html"><span><span>Convertor</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1653717232%2FClasslikes%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-convertor/index.html">Convertor</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="">Functions</h2>
+              <div class="table" data-togglable="Functions"><a data-name="-1026410121%2FFunctions%2F165651098" anchor-label="getBluetoothAddress" id="-1026410121%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="get-bluetooth-address.html"><span>get</span><wbr></wbr><span>Bluetooth</span><wbr></wbr><span><span>Address</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1026410121%2FFunctions%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-bluetooth-address.html"><span class="token function">getBluetoothAddress</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Get the bluetooth address of this vehicle info.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="1277352918%2FFunctions%2F165651098" anchor-label="getVehicleId" id="1277352918%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="get-vehicle-id.html"><span>get</span><wbr></wbr><span>Vehicle</span><wbr></wbr><span><span>Id</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1277352918%2FFunctions%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-vehicle-id.html"><span class="token function">getVehicleId</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Get the vehicle id of this vehicle info.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer"><span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span></div>
+      </div>
+    </div>
+  </body>
+</html>
+

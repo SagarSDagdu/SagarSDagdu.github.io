@@ -1,0 +1,163 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>FairmaticBroadcastReceiver</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../../";</script>    <script>const storage = localStorage.getItem("dokka-dark-mode")
+const savedDarkMode = storage ? JSON.parse(storage) : false
+if(savedDarkMode === true){
+    document.getElementsByTagName("html")[0].classList.add("theme-dark")
+}</script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script><link href="../../../styles/style.css" rel="Stylesheet"><link href="../../../styles/jetbrains-mono.css" rel="Stylesheet"><link href="../../../styles/main.css" rel="Stylesheet"><link href="../../../styles/prism.css" rel="Stylesheet"><link href="../../../styles/logo-styles.css" rel="Stylesheet"><script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script><script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script><script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script><script type="text/javascript" src="../../../scripts/main.js" async="async"></script><script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>  </head>
+  <body>
+    <div class="navigation-wrapper" id="navigation-wrapper">
+      <div id="leftToggler"><span class="icon-toggler"></span></div>
+      <div class="library-name"><a href="../../../index.html">sdk</a></div>
+      <div></div>
+      <div class="pull-right d-flex"><button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+      </div>
+    </div>
+    <div id="container">
+      <div id="leftColumn">
+        <div id="sideMenu"></div>
+      </div>
+      <div id="main"><script type="text/javascript" src="../../../scripts/main.js"></script>
+        <div class="main-content" id="content" pageIds="sdk::com.fairmatic.sdk.wrapper/FairmaticBroadcastReceiver///PointingToDeclaration//165651098">
+          <div class="breadcrumbs"><a href="../../../index.html">sdk</a>/<a href="../index.html">com.fairmatic.sdk.wrapper</a>/<a href="index.html">FairmaticBroadcastReceiver</a></div>
+          <div class="cover ">
+            <h1 class="cover"><span>Fairmatic</span><wbr></wbr><span>Broadcast</span><wbr></wbr><span><span>Receiver</span></span></h1>
+            <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">class </span><a href="index.html">FairmaticBroadcastReceiver</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph">A receiver to receive callbacks from the Fairmatic SDK when interesting events occur or are detected in the SDK. This replaces the FairmaticListener interface from earlier versions of the SDK. To receive these callbacks - the application should subclass this class and implement the abstract handlers for SDK callbacks. The subclass should then be registered with the Fairmatic SDK via the SDK setup call.</p><p class="paragraph">The application broadcast receiver subclass is not allowed to directly handle intents by overriding the onReceive method of the BroadcastReceiver. The raw SDK intents are not guaranteed to be backward compatible across versions. The application should implement the abstract handler methods in this class to receive the callbacks.</p></div></div>
+          </div>
+          <div class="tabbedcontent">
+            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button></div>
+            <div class="tabs-section-body">
+              <h2 class="tabbedcontent">Constructors</h2>
+              <div class="table" data-togglable="Constructors"><a data-name="518471683%2FConstructors%2F165651098" anchor-label="FairmaticBroadcastReceiver" id="518471683%2FConstructors%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue TabbedContent">
+                    <div class=""><span class="inline-flex"><a href="-fairmatic-broadcast-receiver.html">FairmaticBroadcastReceiver</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="518471683%2FConstructors%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-fairmatic-broadcast-receiver.html"><span class="token function">FairmaticBroadcastReceiver</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="">Functions</h2>
+              <div class="table" data-togglable="Functions"><a data-name="-1016560125%2FFunctions%2F165651098" anchor-label="onAccident" id="-1016560125%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="on-accident.html"><span>on</span><wbr></wbr><span><span>Accident</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1016560125%2FFunctions%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="on-accident.html"><span class="token function">onAccident</span></a><span class="token punctuation">(</span>context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token operator">?</span><span class="token punctuation">, </span>accidentInfo<span class="token operator">: </span><a href="../-accident-info/index.html">AccidentInfo</a><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Called when Fairmatic SDK detects an accident.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="1800239769%2FFunctions%2F165651098" anchor-label="onBusinessHoursChanged" id="1800239769%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="on-business-hours-changed.html"><span>on</span><wbr></wbr><span>Business</span><wbr></wbr><span>Hours</span><wbr></wbr><span><span>Changed</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1800239769%2FFunctions%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="on-business-hours-changed.html"><span class="token function">onBusinessHoursChanged</span></a><span class="token punctuation">(</span>context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token operator">?</span><span class="token punctuation">, </span>fairmaticShiftDetail<span class="token operator">: </span><a href="../-fairmatic-shift-detail/index.html">FairmaticShiftDetail</a><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Called whenever the business hours are fetched and updated by the Fairmatic SDK. To get the updated business hours instantly, the application must call <a href="../../com.fairmatic.sdk/-fairmatic/refresh-business-hours.html">com.fairmatic.sdk.Fairmatic.refreshBusinessHours</a>.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1038402323%2FFunctions%2F165651098" anchor-label="onDriveAnalyzed" id="-1038402323%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="on-drive-analyzed.html"><span>on</span><wbr></wbr><span>Drive</span><wbr></wbr><span><span>Analyzed</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1038402323%2FFunctions%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="on-drive-analyzed.html"><span class="token function">onDriveAnalyzed</span></a><span class="token punctuation">(</span>context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token operator">?</span><span class="token punctuation">, </span>analyzedDriveInfo<span class="token operator">: </span><a href="../-analyzed-drive-info/index.html">AnalyzedDriveInfo</a><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Called when the Fairmatic SDK has analyzed a drive. This will only be called for drives where <a href="../-fairmatic-drive-type/index.html">FairmaticDriveType</a> is not <a href="../-fairmatic-drive-type/-i-n-v-a-l-i-d/index.html">FairmaticDriveType.INVALID</a>.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1168865242%2FFunctions%2F165651098" anchor-label="onDriveEnd" id="-1168865242%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="on-drive-end.html"><span>on</span><wbr></wbr><span>Drive</span><wbr></wbr><span><span>End</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1168865242%2FFunctions%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="on-drive-end.html"><span class="token function">onDriveEnd</span></a><span class="token punctuation">(</span>context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token operator">?</span><span class="token punctuation">, </span>estimatedDriveInfo<span class="token operator">: </span><a href="../-estimated-drive-info/index.html">EstimatedDriveInfo</a><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Called when the Fairmatic SDK ends a drive. The drive may have been manually started and ended by the application or auto detected by the SDK.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="1657317075%2FFunctions%2F165651098" anchor-label="onDriveResume" id="1657317075%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="on-drive-resume.html"><span>on</span><wbr></wbr><span>Drive</span><wbr></wbr><span><span>Resume</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1657317075%2FFunctions%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="on-drive-resume.html"><span class="token function">onDriveResume</span></a><span class="token punctuation">(</span>context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token operator">?</span><span class="token punctuation">, </span>driveResumeInfo<span class="token operator">: </span><a href="../-drive-resume-info/index.html">DriveResumeInfo</a><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Called when the Fairmatic SDK resumes a drive after a gap. The gap in drive recording may occur due to an application restart by the OS, application kill and restart by a user, an application crash or other reasons.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-818245725%2FFunctions%2F165651098" anchor-label="onDriveStart" id="-818245725%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="on-drive-start.html"><span>on</span><wbr></wbr><span>Drive</span><wbr></wbr><span><span>Start</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-818245725%2FFunctions%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="on-drive-start.html"><span class="token function">onDriveStart</span></a><span class="token punctuation">(</span>context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token operator">?</span><span class="token punctuation">, </span>driveStartInfo<span class="token operator">: </span><a href="../-drive-start-info/index.html">DriveStartInfo</a><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Called when the Fairmatic SDK starts a drive. The drive may have been manually started by the application or auto detected by the SDK.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="847488129%2FFunctions%2F165651098" anchor-label="onFairmaticSettingsConfigChanged" id="847488129%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="on-fairmatic-settings-config-changed.html"><span>on</span><wbr></wbr><span>Fairmatic</span><wbr></wbr><span>Settings</span><wbr></wbr><span>Config</span><wbr></wbr><span><span>Changed</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="847488129%2FFunctions%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="on-fairmatic-settings-config-changed.html"><span class="token function">onFairmaticSettingsConfigChanged</span></a><span class="token punctuation">(</span>context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token operator">?</span><span class="token punctuation">, </span>errorsFound<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">, </span>warningsFound<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">This method is called when the Fairmatic SDK detects a change in device settings that affects trip detection or the normal functioning of the SDK. The user should call <a href="../../com.fairmatic.sdk/-fairmatic/get-fairmatic-settings.html">com.fairmatic.sdk.Fairmatic.getFairmaticSettings</a> to get detailed error information.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-2125268829%2FFunctions%2F165651098" anchor-label="onPotentialAccident" id="-2125268829%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="on-potential-accident.html"><span>on</span><wbr></wbr><span>Potential</span><wbr></wbr><span><span>Accident</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2125268829%2FFunctions%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="on-potential-accident.html"><span class="token function">onPotentialAccident</span></a><span class="token punctuation">(</span>context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token operator">?</span><span class="token punctuation">, </span>accidentInfo<span class="token operator">: </span><a href="../-accident-info/index.html">AccidentInfo</a><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">This is an experimental feature, disabled by default. An early notification of a possible collision. This collision is confirmed or invalidated by <a href="on-accident.html">onAccident</a> callback. Contact support@Fairmatic.com to enable the feature.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer"><span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span></div>
+      </div>
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,275 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>FairmaticConfiguration</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../../";</script>    <script>const storage = localStorage.getItem("dokka-dark-mode")
+const savedDarkMode = storage ? JSON.parse(storage) : false
+if(savedDarkMode === true){
+    document.getElementsByTagName("html")[0].classList.add("theme-dark")
+}</script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script><link href="../../../styles/style.css" rel="Stylesheet"><link href="../../../styles/jetbrains-mono.css" rel="Stylesheet"><link href="../../../styles/main.css" rel="Stylesheet"><link href="../../../styles/prism.css" rel="Stylesheet"><link href="../../../styles/logo-styles.css" rel="Stylesheet"><script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script><script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script><script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script><script type="text/javascript" src="../../../scripts/main.js" async="async"></script><script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>  </head>
+  <body>
+    <div class="navigation-wrapper" id="navigation-wrapper">
+      <div id="leftToggler"><span class="icon-toggler"></span></div>
+      <div class="library-name"><a href="../../../index.html">sdk</a></div>
+      <div></div>
+      <div class="pull-right d-flex"><button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+      </div>
+    </div>
+    <div id="container">
+      <div id="leftColumn">
+        <div id="sideMenu"></div>
+      </div>
+      <div id="main"><script type="text/javascript" src="../../../scripts/main.js"></script>
+        <div class="main-content" id="content" pageIds="sdk::com.fairmatic.sdk.wrapper/FairmaticConfiguration///PointingToDeclaration//165651098">
+          <div class="breadcrumbs"><a href="../../../index.html">sdk</a>/<a href="../index.html">com.fairmatic.sdk.wrapper</a>/<a href="index.html">FairmaticConfiguration</a></div>
+          <div class="cover ">
+            <h1 class="cover"><span>Fairmatic</span><wbr></wbr><span><span>Configuration</span></span></h1>
+            <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">FairmaticConfiguration</a><span class="token punctuation">(</span>fmSdkKey<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span>driverId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph">The configuration to pass to Fairmatic for <a href="../../com.fairmatic.sdk/-fairmatic/setup.html">com.fairmatic.sdk.Fairmatic.setup</a>. It contains properties like the sdk key, driver id, driver attributes etc.</p></div></div>
+          </div>
+          <div class="tabbedcontent">
+            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button><button class="section-tab" data-togglable="Parameters">Parameters</button></div>
+            <div class="tabs-section-body">
+              <h2 class="">Parameters</h2>
+              <div data-togglable="Parameters">
+                <div class="platform-hinted WithExtraAttributes" data-platform-hinted="data-platform-hinted" data-togglable="Parameters"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div data-togglable="Parameters"><div class="table" data-togglable="Parameters"><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><span>fm</span><wbr></wbr><span>Sdk</span><wbr></wbr><span><span>Key</span></span></span></div><div><div class="title"><div data-togglable="Parameters"><ul><li><p class="paragraph">The Fairmatic sdk key for this application. The sdk key is available from The Id of the driver currently using this application.</p></li></ul></div></div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><span>driver</span><wbr></wbr><span><span>Id</span></span></span></div><div><div class="title"><div data-togglable="Parameters"><ul><li><p class="paragraph">Each driver using the application needs a unique Id. This same Id will be used in Fairmatic driver analytics services like the dashboard and API. The driver Id may be upto 64 characters long. Additionally, the driver Id needs to be websafe. You can use <a href="../../com.fairmatic.sdk/-fairmatic/is-valid-input-parameter.html">com.fairmatic.sdk.Fairmatic.isValidInputParameter</a> to validate the driver Id. Passing an invalid id will cause the Fairmatic SDK setup to fail. This cannot be null.The driver id for this driver. This cannot be null.</p></li></ul><p class="paragraph">Throws: NullPointerException - if sdkKey or driverId is null.</p></div></div></div></div></div></div></div></div></div>
+              </div>
+              <h2 class="tabbedcontent">Constructors</h2>
+              <div class="table" data-togglable="Constructors"><a data-name="424163900%2FConstructors%2F165651098" anchor-label="FairmaticConfiguration" id="424163900%2FConstructors%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue TabbedContent">
+                    <div class=""><span class="inline-flex"><a href="-fairmatic-configuration.html">FairmaticConfiguration</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="424163900%2FConstructors%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-fairmatic-configuration.html"><span class="token function">FairmaticConfiguration</span></a><span class="token punctuation">(</span>jsonObject<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/org/json/JSONObject.html">JSONObject</a><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Creates a FairmaticConfiguration from its json representation.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="1968770761%2FConstructors%2F165651098" anchor-label="FairmaticConfiguration" id="1968770761%2FConstructors%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue TabbedContent">
+                    <div class=""><span class="inline-flex"><a href="-fairmatic-configuration.html">FairmaticConfiguration</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1968770761%2FConstructors%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-fairmatic-configuration.html"><span class="token function">FairmaticConfiguration</span></a><span class="token punctuation">(</span>sdkKey<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span>driverId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span>driveDetectionMode<span class="token operator">: </span><a href="../-fairmatic-drive-detection-mode/index.html">FairmaticDriveDetectionMode</a><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Creates a FairmaticConfiguration with the given sdk key, driver id and drive detection mode.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-2141381706%2FConstructors%2F165651098" anchor-label="FairmaticConfiguration" id="-2141381706%2FConstructors%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue TabbedContent">
+                    <div class=""><span class="inline-flex"><a href="-fairmatic-configuration.html">FairmaticConfiguration</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2141381706%2FConstructors%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-fairmatic-configuration.html"><span class="token function">FairmaticConfiguration</span></a><span class="token punctuation">(</span>sdkKey<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span>driverId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span>driveDetectionMode<span class="token operator">: </span><a href="../-fairmatic-drive-detection-mode/index.html">FairmaticDriveDetectionMode</a><span class="token punctuation">, </span>region<span class="token operator">: </span><a href="../-fairmatic-region/index.html">FairmaticRegion</a><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Creates a FairmaticConfiguration with the given sdk key, driver id, drive detection mode and region type.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-835550266%2FConstructors%2F165651098" anchor-label="FairmaticConfiguration" id="-835550266%2FConstructors%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue TabbedContent">
+                    <div class=""><span class="inline-flex"><a href="-fairmatic-configuration.html">FairmaticConfiguration</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-835550266%2FConstructors%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-fairmatic-configuration.html"><span class="token function">FairmaticConfiguration</span></a><span class="token punctuation">(</span>fmSdkKey<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span>driverId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="">Types</h2>
+              <div class="table" data-togglable="Types"><a data-name="-832639404%2FClasslikes%2F165651098" anchor-label="Convertor" id="-832639404%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-convertor/index.html"><span><span>Convertor</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-832639404%2FClasslikes%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-convertor/index.html">Convertor</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="">Functions</h2>
+              <div class="table" data-togglable="Functions"><a data-name="856236101%2FFunctions%2F165651098" anchor-label="getFairmaticDriveDetectionMode" id="856236101%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="get-fairmatic-drive-detection-mode.html"><span>get</span><wbr></wbr><span>Fairmatic</span><wbr></wbr><span>Drive</span><wbr></wbr><span>Detection</span><wbr></wbr><span><span>Mode</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="856236101%2FFunctions%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-fairmatic-drive-detection-mode.html"><span class="token function">getFairmaticDriveDetectionMode</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-fairmatic-drive-detection-mode/index.html">FairmaticDriveDetectionMode</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Returns the drive detection mode specified for the Fairmatic SDK.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-440978012%2FFunctions%2F165651098" anchor-label="getFairmaticDriverAttributes" id="-440978012%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="get-fairmatic-driver-attributes.html"><span>get</span><wbr></wbr><span>Fairmatic</span><wbr></wbr><span>Driver</span><wbr></wbr><span><span>Attributes</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-440978012%2FFunctions%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-fairmatic-driver-attributes.html"><span class="token function">getFairmaticDriverAttributes</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-fairmatic-driver-attributes/index.html">FairmaticDriverAttributes</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Returns the additional attributes of the current driver.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="1731889658%2FFunctions%2F165651098" anchor-label="getImplementsMultipleAccidentCallbacks" id="1731889658%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="get-implements-multiple-accident-callbacks.html"><span>get</span><wbr></wbr><span>Implements</span><wbr></wbr><span>Multiple</span><wbr></wbr><span>Accident</span><wbr></wbr><span><span>Callbacks</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1731889658%2FFunctions%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-implements-multiple-accident-callbacks.html"><span class="token function">getImplementsMultipleAccidentCallbacks</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Returns a boolean indicating if the app supports Bluetooth Drive Start.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="751116013%2FFunctions%2F165651098" anchor-label="getRegion" id="751116013%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="get-region.html"><span>get</span><wbr></wbr><span><span>Region</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="751116013%2FFunctions%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-region.html"><span class="token function">getRegion</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-fairmatic-region/index.html">FairmaticRegion</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Returns the region associated with the current driver.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="860760779%2FFunctions%2F165651098" anchor-label="setDriveDetectionMode" id="860760779%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="set-drive-detection-mode.html"><span>set</span><wbr></wbr><span>Drive</span><wbr></wbr><span>Detection</span><wbr></wbr><span><span>Mode</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="860760779%2FFunctions%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-drive-detection-mode.html"><span class="token function">setDriveDetectionMode</span></a><span class="token punctuation">(</span>driveDetectionMode<span class="token operator">: </span><a href="../-fairmatic-drive-detection-mode/index.html">FairmaticDriveDetectionMode</a><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Set the drive detection mode of this configuration.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="698310699%2FFunctions%2F165651098" anchor-label="setDriverAttributes" id="698310699%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="set-driver-attributes.html"><span>set</span><wbr></wbr><span>Driver</span><wbr></wbr><span><span>Attributes</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="698310699%2FFunctions%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-driver-attributes.html"><span class="token function">setDriverAttributes</span></a><span class="token punctuation">(</span>driverAttributes<span class="token operator">: </span><a href="../-fairmatic-driver-attributes/index.html">FairmaticDriverAttributes</a><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Set the additional attributes of the current driver.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="105583221%2FFunctions%2F165651098" anchor-label="setEnabledBluetoothDriveStart" id="105583221%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="set-enabled-bluetooth-drive-start.html"><span>set</span><wbr></wbr><span>Enabled</span><wbr></wbr><span>Bluetooth</span><wbr></wbr><span>Drive</span><wbr></wbr><span><span>Start</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="105583221%2FFunctions%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-enabled-bluetooth-drive-start.html"><span class="token function">setEnabledBluetoothDriveStart</span></a><span class="token punctuation">(</span>enabledBluetoothDriveStart<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Set this property to true if the app supports Bluetooth Drive Start. If set to true, the application will receive <a href="../-fairmatic-broadcast-receiver/on-drive-start.html">FairmaticBroadcastReceiver.onDriveStart</a> callback whenever a successful bluetooth connection is established with an already associated vehicle. If the vehicle is not already associated, call <a href="../-fairmatic-vehicle-tagging/associate-vehicle.html">FairmaticVehicleTagging.associateVehicle</a> before connecting the device to the vehicle via Bluetooth. This feature needs <a href="../-fairmatic-drive-detection-mode/index.html">FairmaticDriveDetectionMode</a> to be <a href="../-fairmatic-drive-detection-mode/-a-u-t-o_-o-n/index.html">FairmaticDriveDetectionMode.AUTO_ON</a>.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="326525387%2FFunctions%2F165651098" anchor-label="setImplementsMultipleAccidentCallbacks" id="326525387%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="set-implements-multiple-accident-callbacks.html"><span>set</span><wbr></wbr><span>Implements</span><wbr></wbr><span>Multiple</span><wbr></wbr><span>Accident</span><wbr></wbr><span><span>Callbacks</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="326525387%2FFunctions%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-implements-multiple-accident-callbacks.html"><span class="token function">setImplementsMultipleAccidentCallbacks</span></a><span class="token punctuation">(</span>implementsMultipleAccidentCallbacks<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Set this property to true if the app supports receiving multiple callbacks. If set to true, the application will receive <a href="../-fairmatic-broadcast-receiver/on-potential-accident.html">FairmaticBroadcastReceiver.onPotentialAccident</a>. This callback can serve as an early indication of a collision that might have happened. A potential accident event sent this way might be invalidated by the final callback in <a href="../-fairmatic-broadcast-receiver/on-accident.html">FairmaticBroadcastReceiver.onAccident</a>. Such a callback will have <a href="../-accident-info/confidence-number.html">AccidentInfo.confidenceNumber</a> set to 0 and <a href="../-accident-info/confidence.html">AccidentInfo.confidence</a> set to <a href="../-fairmatic-accident-confidence/-i-n-v-a-l-i-d/index.html">FairmaticAccidentConfidence.INVALID</a>.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-86915957%2FFunctions%2F165651098" anchor-label="setRegion" id="-86915957%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="set-region.html"><span>set</span><wbr></wbr><span><span>Region</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-86915957%2FFunctions%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-region.html"><span class="token function">setRegion</span></a><span class="token punctuation">(</span>region<span class="token operator">: </span><a href="../-fairmatic-region/index.html">FairmaticRegion</a><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Set the region type of this configuration.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1139386496%2FFunctions%2F165651098" anchor-label="toJson" id="-1139386496%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="to-json.html"><span>to</span><wbr></wbr><span><span>Json</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1139386496%2FFunctions%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="to-json.html"><span class="token function">toJson</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/org/json/JSONObject.html">JSONObject</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Return the json representation of this object. Null if a json exception occurred.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="">Properties</h2>
+              <div class="table" data-togglable="Properties"><a data-name="-1549065056%2FProperties%2F165651098" anchor-label="driverId" id="-1549065056%2FProperties%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="driver-id.html">driverId</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1549065056%2FProperties%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><a data-name="-1549065056%2FProperties%2F165651098" anchor-label="driverId" id="-1549065056%2FProperties%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="driver-id.html">driverId</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-771950409%2FProperties%2F165651098" anchor-label="fmSdkKey" id="-771950409%2FProperties%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="fm-sdk-key.html">fmSdkKey</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-771950409%2FProperties%2F165651098"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><a data-name="-771950409%2FProperties%2F165651098" anchor-label="fmSdkKey" id="-771950409%2FProperties%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">var </span><a href="fm-sdk-key.html">fmSdkKey</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer"><span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span></div>
+      </div>
+    </div>
+  </body>
+</html>
+
